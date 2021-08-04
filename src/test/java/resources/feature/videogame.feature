@@ -6,7 +6,7 @@ Feature:  Testing different request on the video games application
     When I create a new videogame by providing the information name"<name>" releaseDate"<releaseDate>" rating"<rating>"
     Examples:
       | name     | releaseDate             | rating   |
-      |pokey mon |2021-07-15T19:08:27.6092 |universal |
+      |Teddy Bear |2021-07-15T19:08:27.6092 |Good |
 
 
   Scenario: Getting the videogame information by Id

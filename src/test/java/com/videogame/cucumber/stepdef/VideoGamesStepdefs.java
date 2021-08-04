@@ -11,11 +11,11 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class VideoGamesStepdefs {
 
     static int id = 1 + TestUtils.getRandomValueInt();
-    static String name ="Bat Man";
+    static String name ="Iron Man ";
     static String releaseDate = "2021-07-15T19:08:27.6092";
     static int reviewScore = 89;
     static String category = "Entertainment";
-    static String rating = "Universal";
+    static String rating = "Good";
 
     @Steps
     VideoGameSteps videoGameSteps;
